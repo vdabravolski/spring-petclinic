@@ -59,6 +59,20 @@
         </dependencies>
     </dependencyManagement>
 
+    <!-- _vp_ 20151024 20151027 -->
+    <distributionManagement>
+      <repository>
+         <id>deployment</id>
+         <name>Internal Releases</name>
+         <url>http://localhost:8081/repository/maven-releases</url>
+      </repository>
+      <snapshotRepository>
+         <id>deployment</id>
+         <name>Internal Snapshot Releases</name>
+         <url>http://localhost:8081/repository/maven-snapshots</url>
+      </snapshotRepository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.jadira.usertype</groupId>
@@ -372,22 +386,6 @@
                     <port>9966</port>
                     <path>/petclinic</path>
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>cobertura-maven-plugin</artifactId>
-                <version>${cobertura.version}</version>
-                <configuration>
-                    <check/>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>clean</goal>
-                            <goal>check</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
