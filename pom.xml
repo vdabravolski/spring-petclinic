@@ -391,6 +391,13 @@
 			    <groupId>org.codehaus.mojo</groupId>
 				<artifactId>versions-maven-plugin</artifactId>
 				<version>2.1</version>
+				<configuration>
+				<includes>
+					<include>junit:junit</include>
+				</includes>
+				<allowSnapshots>true</allowSnapshots>
+				</configuration>
+			
 			</plugin>
         </plugins>
     </build>
