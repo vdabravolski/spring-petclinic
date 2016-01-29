@@ -61,12 +61,12 @@
 	<repositories>
 	 <repository>
          <id>deployment</id>
-         <name>Internal Releases</name>
+         
          <url>http://192.168.1.104:8081/nexus/content/repositories/releases/</url>
       </repository>
 	  <repository>
-         <id>deployment</id>
-         <name>Internal Snapshot Releases</name>
+         <id>deployments</id>
+         
          <url>http://192.168.1.104:8081/nexus/content/repositories/snapshots/</url>
 		 <snapshots>
 		 <enabled>true</enabled>
