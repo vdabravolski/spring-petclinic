@@ -1,4 +1,4 @@
-Testing polling.
+Testing polling 2.
 
 # Spring PetClinic Sample Application
 
