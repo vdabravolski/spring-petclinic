@@ -78,7 +78,7 @@
       <repository>
          <id>deployment</id>
          <name>Internal Releases</name>
-         <url>http://9c32e6c2.ngrok.io/nexus/content/repositories/releases/</url>
+         <url>http://9c32e6c2.ngrok.io/nexus/content/repositories/snapshots/</url>
       </repository>
       <snapshotRepository>
          <id>deployment</id>
