@@ -75,7 +75,8 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <url>http://9c32e6c2.ngrok.io/nexus/content/repositories/releases</url>
+            <!-- <url>http://9c32e6c2.ngrok.io/nexus/content/repositories/releases</url> -->
+            <url>http://localhost:8009/nexus/content/repositories/releases</url>
         </repository>
     </distributionManagement>
 
