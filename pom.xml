@@ -73,20 +73,13 @@
 	</repositories>
 	
 
-    <!-- _vp_ 20151024 20151027 -->
     <distributionManagement>
-      <!-- <repository>
-         <id>deployment</id>
-         <name>Internal Releases</name>
-         <url>http://9c32e6c2.ngrok.io/nexus/content/repositories/snapshots/</url>
-      </repository> -->
-      <snapshotRepository>
-         <id>deployment</id>
-         <name>Internal Snapshot Releases</name>
-         <url>http://9c32e6c2.ngrok.io/nexus/content/repositories/snapshots</url>
-      </snapshotRepository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <url>http://localhost:8009/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
     </distributionManagement>
-
+    
     <dependencies>
         <dependency>
             <groupId>org.jadira.usertype</groupId>
@@ -313,7 +306,7 @@
 
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
-        <defaultGoal>install</defaultGoal>
+        <defaultGoal>install</defaultGal>
         <testResources>
             <testResource>
                 <!-- declared explicitly so Spring config files can be placed next to their corresponding JUnit test class  -->
