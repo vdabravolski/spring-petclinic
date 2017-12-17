@@ -61,11 +61,11 @@
 	<repositories>
 	 <repository>
          <id>deployment</id>
-         <url>http://9c32e6c2.ngrok.io/nexus/content/repositories/central/</url>
+         <url>http://127.0.0.1:8081/nexus/content/repositories/central/</url>
       </repository>
 	  <repository>
          <id>deployments</id>
-         <url>http://9c32e6c2.ngrok.io/nexus/content/repositories/snapshots/</url>
+         <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots/</url>
 		 <snapshots>
 		 <enabled>true</enabled>
 		 </snapshots>
