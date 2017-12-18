@@ -1,4 +1,4 @@
-Testing polling 3.
+It's demo time!
 
 # Spring PetClinic Sample Application
 
